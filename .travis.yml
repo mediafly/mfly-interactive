@@ -11,4 +11,8 @@ cache:
   directories:
     - node_modules
 
+notifications:
+  email:
+    - nmehta@mediafly.com
+
 sudo: false
