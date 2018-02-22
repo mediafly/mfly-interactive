@@ -16,7 +16,9 @@ function upload() {
 function serve() {
 	var configFilePath = path.join(process.cwd(), yargs.argv.config)
 	var options = require(configFilePath)
+	require('../lib/login-proxy-server')(options)
 	require('../lib/server')(options)
+
 }
 
 function getVersion() {
