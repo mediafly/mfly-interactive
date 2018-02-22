@@ -5,6 +5,10 @@
   "main": "lib/proxy.js",
   "author": "Nachiket Mehta",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mediafly/mfly-interactive"
+  },
   "engines": {
     "node": ">=6.9.5"
   },

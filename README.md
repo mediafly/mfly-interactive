@@ -62,16 +62,12 @@ mfly-interactive can speed up testing of Interactives on iOS. Specifically it pr
 Steps to set this up:
 
 1. Ensure `mfly-interactive serve` command is running.
-2. Open the iOS app and tap the "Settings" icon on the bottom toolbar and tap "About".
-3. Tap the title bar of the About modal dialog rapidly (more than 10 times). At this point you will see the "DEVELOPER!" modal window.
-4. Enter the IP address and port from the "External" URL that is shown in your terminal that is running mfly-interactive. Now the app is configured to use the mfly-interactive proxy. The main title bar of the app will display the IP address and port.
-5. Navigate to the specific Interactive you are working on. Long tap the item.
-6. Select "Add to proxy" from the context menu.
-7. Open the Interactive.
+2. Open the iOS app and tap `Settings > More > About` on the bottom.
+3. You should see a `Select Server` dialog. Select the correct server based on your IP address.
+4. Navigate to the specific Interactive you are working on.
+5. Open the Interactive.
 
-Now you are set to test the Interactive on iOS. Open the "DEVELOPER!" modal by following steps 1-3 to turn off the proxy.
-
-![](ios-setup.gif)
+Now you are set to test your Interactive on iOS. Turn off the debugging proxy by following the same steps above.
 
 ## Packaging an Interactive
 
