@@ -1,9 +1,9 @@
 {
-  "name": "mfly-interactive",
+  "name": "@mediafly/extension-cli",
   "version": "1.8.3",
-  "description": "Allows local development of interactives using real data.",
+  "description": "Allows local development of extensions using real data.",
   "main": "lib/proxy.js",
-  "author": "Nachiket Mehta",
+  "author": "Mediafly Inc.",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
     "zip-folder": "1.0.0"
   },
   "bin": {
-    "mfly-interactive": "bin/index.js"
+    "extension-cli": "bin/index.js"
   },
   "scripts": {
     "test": "mocha"

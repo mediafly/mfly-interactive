@@ -45,7 +45,7 @@ function openInViewer() {
 }
 
 yargs
-	.usage('Run the Interactive with the following options.')
+	.usage('Run the Extension with the following options.')
 	.option('config', {
 		alias: 'c',
 		description: 'Name of the config file to use',
