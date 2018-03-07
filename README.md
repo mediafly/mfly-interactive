@@ -1,4 +1,6 @@
-# Mediafly Extension [![Build Status](https://travis-ci.org/mediafly/mfly-interactive.svg?branch=master)](https://travis-ci.org/mediafly/mfly-interactive)
+# DEPRECATED: mfly-interactive is deprecated. Use [@mediafly/extension-cli](https://www.npmjs.com/package/@mediafly/extension-cli) instead.
+
+# Mediafly Extensions CLI [![Build Status](https://travis-ci.org/mediafly/mfly-interactive.svg?branch=master)](https://travis-ci.org/mediafly/mfly-interactive)
 
 ## Install
 
